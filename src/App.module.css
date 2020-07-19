@@ -7,16 +7,19 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .image {
-  width: 370px;
+  max-width: 370px;
+  width: 100%;
+  height: auto;
   margin-top: 50px;
 }
 
 @media (max-width: 770px) {
   .container {
-    margin: 0 10%;
+    margin: 0 5%;
   }
 
   .image {

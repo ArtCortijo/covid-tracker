@@ -1,9 +1,11 @@
 .container {
   margin: 50px 0;
+  max-width: 990px;
+  width: 100%;
 }
 
 .card {
-  margin: 0 2% !important;
+  margin: 0 2% 30px !important;
 }
 
 .infected {
@@ -18,8 +20,8 @@
   border-bottom: 10px solid rgba(255, 0, 0, 0.5);
 }
 
-@media (max-width: 770px) {
+/* @media (max-width: 768px) {
   .card {
-    margin: 2% 0 !important;
+    margin: 0 2% !important;
   }
-}
+} */
